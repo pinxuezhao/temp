@@ -1,0 +1,32 @@
+name: pt2
+channels:
+  - defaults
+dependencies:
+  - scikit-learn # here we start
+  - jupyter
+  - jupyterlab
+  - pandas
+  - tqdm
+  - sympy
+  - networkx
+  - matplotlib
+  - pip
+  - pip:
+    - ptvsd
+    - flake8
+    - autopep8
+    - transformers
+    - yapf
+    - t5==0.7.1
+    - datasets
+    - git+https://github.com/networkx/networkx-metis.git  # For partitioning
+    - timm
+    - sortedcollections
+    - graphviz
+    - adjustText
+    - seaborn
+
+
+
+#prefix: /home_local/saareliad/miniconda3/envs/py38
+

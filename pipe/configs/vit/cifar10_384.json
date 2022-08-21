@@ -1,0 +1,6 @@
+{
+  "data_dir": "/home_local/saareliad/data",
+  "dataset": "cifar10_384",
+  "epochs": -1,
+  "steps": 10000
+}

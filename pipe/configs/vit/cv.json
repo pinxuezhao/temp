@@ -1,0 +1,8 @@
+{
+  "trainer": {
+    "type": "cv_per_step_lr_scheduler",
+    "args": {
+    }
+  },
+  "statistics": "cv"
+}
